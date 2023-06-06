@@ -31,7 +31,7 @@ async function addItem(text) {
 // addItem('삽입테스트');
 
 // 노션 DB 조회하기
-let url = "https://api.notion.com/v1/pages/1523068ab59042578f40bc1d1e960468";
+let url = "https://api.notion.com/v1/pages/NOTION_PAGE_ID";
 let method = 'GET'
 
 const response = await fetch(url, {
